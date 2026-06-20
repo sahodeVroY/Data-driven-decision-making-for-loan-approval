@@ -1,0 +1,83 @@
+How many datasets did you use, name them?
+3 datasets, UCI Credit, Taiwan credit and credit card default datasets
+
+What all algorithms were used?
+Logistic regression, decision tree, random forest and gradient boosting
+
+Why did you select these 4?
+LR - Simplicity, DT - Easy to interpret and use, RF - Reduces overfitting and improved generalization, GB - High predictive accuracy
+Keywords : performance, interpretability, scalability
+
+Why did you not select SVM(Support Vector Machine)?
+SVM takes high memory to store support vectors
+SVM is sensitive to hyperparameter tuning, if it's improper, it can cause over/underfitting.
+SVM is computationally expensive and not scalable.
+SVM is also not easily interpretable.
+
+what is Ensemble method?
+Multiple models are combined to solve a problem or improve prediction performance. 
+The idea is that a group of models, when combined, can outperform individual models by reducing errors and improving generalization.
+
+what all ensemble algorithms were used?
+Random forest and Gradient boosting
+
+why did you not split into 3 partitions?
+we were only using a subset of big datasets and for simpler datasets , the model will be compatible to newer unseen data and 2 partitions (train and test) were enough.
+
+what's the advantage of your model?
+(Refer slide 2, purple coloured terms for more details)
+Access risk, automate decisions, minimize bias and enhance profitability
+
+what is boxplot and it's use?
+It's used for outlier detection
+(refer slide 7 for boxplot info)
+
+what is correlation matrix?
+(refer slide 8)
+each cell of the matrix displays correlation coefficient between 2 variables
+
+This project is based on which type of problem and which type of ML method?
+Supervised Machine Learning and Classification problem(Binary Classification Problem).
+
+what's the use of AUC-ROC?
+AUC = summary of model's peformance and can be used to compare different ML models.
+
+which ROC curve is used for imperfect classifiers?
+PR AUC-ROC (Precision Recall AUC-ROC)
+
+what's the goal of ROC?
+ROC space to be in the upper left hand corner
+
+Define AUC?
+Area Under Curve is the measure of the ability of a classifier to distinguish between classes
+
+what's harmonic mean of precision and recall?
+F1-score
+
+what are some applications of Linear regression?
+Stock Market prediction and Weather prediction
+
+which learning algorithm does decision tree use?
+ID3 algorithm (Iterative Dichotomizer 3)
+
+for an ideal ML model, how should be the bias and variance?
+low bias and low variance
+
+why do we use 3 partitions?
+to reduce overfitting
+
+why did you not use KNN?
+computationally expensive because it needs to calculate distances for every datapoint.
+
+why did you not use Naive Bayes?
+it assumes independence among features, which isn't applicable to real world datasets.
+
+which environment was used to implement these algorithms?
+google collab
+
+what's machine learning?
+an application of AI that allows system to automatically improve without being explicity programmed
+
+
+
+
